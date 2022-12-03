@@ -1,0 +1,29 @@
+#header{
+    background: var(--color-secondary);
+    width: 60%;
+    height: 80px;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 10px 10px 0px 0px;
+    padding: 18px;
+}
+
+
+@media screen and (max-width:600px){
+
+    #header{
+        width: 90%;
+        margin-top: 80px;
+    }
+    
+
+}
+@media screen and (max-width:900px){
+
+    #header{
+        width: 90%;
+        margin-top: 80px;
+    }
+    
+
+}

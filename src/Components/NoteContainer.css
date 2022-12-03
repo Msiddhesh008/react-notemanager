@@ -1,0 +1,110 @@
+#noteContainer{
+    background-color: var(--color-primary);
+    width: 70%;
+    height: auto;
+    border-radius: 10px;
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    box-shadow: 5px 5px 3px 0px  #aaadaf;
+
+}
+#noteContainer form input{
+    width: 100%;
+    margin-top: 18px;
+    font-size: larger;
+    color: #555;
+    height: 60px;
+    border-radius: 36px;
+    /* border: 2px solid #154868; */
+    padding-left: 18px;
+    /* border: 1px solid #154868; */
+}
+
+#noteContainer form .add{
+    font-size: xx-large;
+    color: aliceblue;
+    background-color: var(--color-secondary);
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    bottom: 20px;
+    right: 18%;
+    cursor: pointer;
+    transition: 0.5s;
+}
+#noteContainer button:hover{
+    opacity: 80%;
+}
+#noteContainer .deleted{
+    font-size: xx-large;
+    color: aliceblue;
+    background-color: var(--color-secondary);
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    bottom: 20px;
+    right: 10%;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+@media screen and (max-width:600px){
+
+    #noteContainer{
+        width: 100%;    
+    }
+    #noteContainer input{
+        width: 100%;
+        margin-top: 0px;
+        border-radius: 4px;
+        font-size: large;
+        height: 50px;
+    }
+    #noteContainer .add{
+        height: 60px;
+        width: 60px;
+        bottom: -20px;
+        right: -1.5rem;
+        cursor: pointer;
+        transition: 0.5s;
+    }
+    #noteContainer button:hover{
+        opacity: 80%;
+    }
+}
+
+@media screen and (max-width:900px){
+    #noteContainer{
+        width: 100%;    
+        margin-bottom: 60px;
+    }
+    #noteContainer input{
+        width: 100%;
+        margin-top: 0px;
+        border-radius: 4px;
+        font-size: large;
+        height: 50px;
+    }
+    #noteContainer .add{
+        height: 60px;
+        width: 60px;
+        bottom: -20px;
+        right: -1.5rem;
+        cursor: pointer;
+        transition: 0.5s;
+    }
+    #noteContainer button:hover{
+        opacity: 80%;
+    }
+    
+
+    
+
+}
+
+

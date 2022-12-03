@@ -1,0 +1,204 @@
+*{
+   margin: 0;
+   padding: 0;
+   border: 0;
+   outline: 0;
+   list-style: none;
+   box-sizing: border-box;
+}
+
+:root{
+  --color-primary: #a4d7e6;
+  --color-secondary: #154857;
+  --color-light: hsl(var(--primary-hue), 5%, var(--light-lightness));
+  --color-black:hsl(var(--primary-hue), 5%, var(--black-lightness));
+  --color-blackk:hsl(var(--primary-hue), 5%, var(--dark-lightness));
+
+  /* GENERAL CONTAINER VARIABLES */
+  --container-width-md: 76%;
+  --container-width-lg: 90%;
+
+  /* BORDER RADIUS VARIABLES */
+  --border-radius-1: 1.2rem;
+  --border-radius-2: 0.8rem;
+  --border-radius-3: 0.5rem;
+
+  /* GENERAL TRANSITION VARIABLE */
+  --transition: all 500ms ease;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  background: #e7e7e7;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.6rem;
+  font-size: 0.9rem;
+}
+
+/* GENERAL CONTAINER CLASS */
+.conatiner{
+  width: var(--container-width-lg);
+  margin-inline: auto;
+  max-width: 1920px;
+}
+
+/* section{
+  padding: 10rem 0;
+  background: var(--color-light);
+  transition: var(--transition);
+} */
+
+h1, h2, h3,  h4, h5, h6{
+  line-height: 1.1;
+  color: var(--color-black);
+}
+
+h1{
+  font-size: 3rem;
+}
+
+h2{
+  font-size: 2rem;
+}
+
+h3{
+  font-size: 1.6rem;
+}
+
+h4{
+  font-size: 1.1rem;
+}
+
+h5{
+  font-size: 0.95rem;
+}
+
+h6{
+  font-size: 0.8rem;
+}
+
+/* GENERAL IMAGE STYLE */
+img{
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+
+.react-logo{
+  position: absolute;
+  color: #a4d7e6;
+  background-color: #09232b;
+  margin: 30px;
+  border-radius: 6px;
+}
+
+.r-logo{
+  margin: 2px;
+  display: flex;
+  align-items: center;
+  width: 100px;
+  height: 80px;
+}
+.react-logo h5{
+  margin: 6px;
+  text-align: center;
+}
+
+@media screen and (max-width:600px ){
+  
+h1, h2, h3,  h4, h5, h6{
+  line-height: 1;
+  color: var(--color-black);
+}
+
+h1{
+  font-size: 3rem;
+}
+
+h2{
+  font-size: 2rem;
+}
+
+h3{
+  font-size: 1.6rem;
+}
+
+h4{
+  font-size: 1.1rem;
+}
+
+h5{
+  font-size: 0.95rem;
+}
+
+h6{
+  font-size: 0.8rem;
+}
+
+.r-logo{
+  margin: 2px auto;
+  width: 50px;
+  height: 60px;
+}
+
+.react-logo{
+  position: absolute;
+  color: #a4d7e6;
+  background-color: #09232b;
+  border-radius: 6px;
+}
+}
+
+
+@media screen and (max-width:900px){
+  
+  h1, h2, h3,  h4, h5, h6{
+    line-height: 1;
+    color: var(--color-black);
+  }
+  
+  h1{
+    font-size: 3rem;
+  }
+  
+  h2{
+    font-size: 2rem;
+  }
+  
+  h3{
+    font-size: 1.6rem;
+  }
+  
+  h4{
+    font-size: 1.1rem;
+  }
+  
+  h5{
+    font-size: 0.95rem;
+  }
+  
+  h6{
+    font-size: 0.8rem;
+  }
+  .r-logo{
+    margin: 2px auto;
+    width: 50px;
+    height: 60px;
+  }
+  .react-logo{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    color: #a4d7e6;
+    background-color: #09232b;
+    margin: 12px 41%;
+    border-radius: 6px;
+  }
+  
+  }
+
+
+
